@@ -1,0 +1,2 @@
+# autoaccept csgo website
+ 
