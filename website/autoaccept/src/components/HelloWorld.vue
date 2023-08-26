@@ -19,6 +19,10 @@ const count = ref(0)
     </p>
   </div>
 
+<div>
+  <p class="text-3xl font-bold underline text-green-500">teste</p>
+</div>
+
   <p>
     Check out
     <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
