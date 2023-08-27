@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-slate-700 px-[40px] flex justify-between">
+    <div class="w-full bg-slate-700 px-[40px] flex justify-between sticky top-0">
         <button class="py-[15px] font-sans font-bold" @click="changePage(0)">autoaccept csgo</button>
         <div class="flex align-middle gap-[26px] underline">
             <button @click="changePage(1)">download</button>
