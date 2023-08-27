@@ -8,7 +8,7 @@
 
             <div class="pl-[40px] pt-[12px]">            
                 <ul class="list-disc leading-7">
-                    <li>Download it <span class="text-sky-700 cursor-pointer underline">here</span></li>
+                    <li>Download it <span @click="pageStore.setCurrentPage(1)" class="text-sky-700 cursor-pointer underline">here</span></li>
                     <li>Open the downloaded .exe</li>
                     <li>Open steam and log in</li>
                     <li>Open csgo</li>
@@ -49,8 +49,15 @@
 </template>
 
 <script>
+import { usePageStore } from '../../store/page-store.js';
+
     export default {
         name: "docsPage",
+        setup() {
+            const pageStore = usePageStore();
+
+            return { pageStore };
+        },
     };
 </script>
 

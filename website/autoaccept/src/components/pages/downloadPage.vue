@@ -9,6 +9,7 @@
         <p clas="font-sans font-semibold">
             check out
             <span
+            @click="pageStore.setCurrentPage(2)"
             class="text-sky-700 cursor-pointer underline">
                 docs
             </span>
@@ -26,7 +27,14 @@
 </template>
 
 <script>
+import { usePageStore } from '../../store/page-store.js';
+
     export default {
         name: "downloadPage",
+        setup() {
+            const pageStore = usePageStore();
+
+            return { pageStore };
+        },
     };
 </script>
