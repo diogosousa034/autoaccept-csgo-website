@@ -12,7 +12,7 @@
                     <li>Open the downloaded .exe</li>
                     <li>Open steam and log in</li>
                     <li>Open csgo</li>
-                    <li>Search for a match</li>           
+                    <li>Search for a match and leave the csgo open</li>           
                     <li>Press F1 until "ON" sound to turn on</li>
                     <li>Press F2 until "OFF" sound to turn off</li>
                 </ul>
@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="basis-1/3">
-            <div class="bg-slate-700 py-[24px] rounded-md sticky top-[95px]">
+            <div class="bg-cyan-700 py-[24px] rounded-md sticky top-[95px]">
                 <p class="mb-[10px] pl-[20px] font-sans font-bold text-lg">topics</p>
                 <ul class="list-disc leading-7 underline pl-[40px]">
                     <li><a href="#section1"># how to use it</a></li>

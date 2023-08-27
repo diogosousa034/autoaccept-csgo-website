@@ -1,7 +1,7 @@
 <template>
-    <div class="mt-[40px] px-[40px] md:px-[80px] mx-auto max-w-[1080px] pb-[80px]">
+    <div class="mt-[80px] px-[40px] md:px-[80px] mx-auto max-w-[1080px] pb-[80px]">
         <div v-if="pageStore.state.currentPage === 0">
-            <p>page 0</p>
+            <indexPage></indexPage>
         </div>
         <div v-if="pageStore.state.currentPage === 1">
             <downloadPage></downloadPage>
@@ -15,6 +15,7 @@
 <script>
 import downloadPage from "../../components/pages/downloadPage.vue";
 import docsPage from "../../components/pages/docsPage.vue";
+import indexPage from "../../components/pages/index.vue";
 import { usePageStore } from '../../store/page-store.js';
 
     export default {
@@ -22,6 +23,7 @@ import { usePageStore } from '../../store/page-store.js';
         components: {
             downloadPage,
             docsPage,
+            indexPage,
         },
         setup() {
             const pageStore = usePageStore();
@@ -30,3 +32,9 @@ import { usePageStore } from '../../store/page-store.js';
         },
     };
 </script>
+
+<style>
+    .vh{
+        height: 85dvh;
+    }
+</style>

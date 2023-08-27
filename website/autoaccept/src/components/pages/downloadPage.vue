@@ -18,9 +18,7 @@
 
         <div class="pt-[46px] flex justify-center">
             <a href="#">
-                <div class="h-[46px] bg-stone-700 flex items-center px-[20px] rounded-lg border-2 border-transparent hover:border-slate-500">
-                    <p>download</p>
-                </div>
+                <buttonBlue label="download" />
             </a>
         </div>
     </div>
@@ -28,9 +26,13 @@
 
 <script>
 import { usePageStore } from '../../store/page-store.js';
+import buttonBlue from '../../components/button/buttonBlue.vue';
 
     export default {
         name: "downloadPage",
+        components: {
+            buttonBlue,
+        },
         setup() {
             const pageStore = usePageStore();
 
