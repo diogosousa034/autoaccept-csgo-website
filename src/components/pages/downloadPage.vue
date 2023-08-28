@@ -3,7 +3,7 @@
         <p class="font-sans font-bold text-4xl mb-[56px] uppercase">download</p>
 
         <div class="flex justify-center mb-[56px]">
-            <img class="rounded-lg" src="../../assets/program image.png">
+            <img class="rounded-lg" src="../../assets/programImage.png">
         </div>
 
         <p clas="font-sans font-semibold">
