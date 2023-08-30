@@ -17,7 +17,7 @@
         </p>
 
         <div class="pt-[46px] flex justify-center">
-            <a href="#">
+            <a href="https://github.com/diogosousa034/autoaccept-csgo-website/raw/main/src/autoacceptFolder/autoaccept.rar">
                 <buttonBlue label="download" />
             </a>
         </div>
